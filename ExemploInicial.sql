@@ -30,3 +30,7 @@ select FirstName, SecondName from Actors where FirstName="Dream";
 SELECT FirstName, SecondName from Actors WHERE NetWorthInMillions > 200;
 
 SELECT * from Actors WHERE FirstName like "Jen%";
+
+SELECT * from Actors order BY FirstName desc;
+
+SELECT * from Actors order by NetWorthInMillions desc, FirstName asc;
